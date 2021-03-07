@@ -106,7 +106,7 @@ def mainLoop():
 				print (flag)
 				if flag >= frame_check:
 					displayWarnings()
-					sound = pyglet.media.load(r"C:\Users\playbuddy\OneDrive - Cobb County School District\Desktop\VSCode\DD4\alarm.wav", streaming=False)
+					sound = pyglet.media.load(r"alarm.wav", streaming=False)
 					sound.play()
 					print("warning")
 			else:
