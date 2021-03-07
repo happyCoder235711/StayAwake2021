@@ -90,7 +90,7 @@ def mainLoop():
 			leftEAR = eye_aspect_ratio(leftEye)
 			rightEAR = eye_aspect_ratio(rightEye)
 			ear = (leftEAR + rightEAR) / 2.0
-			eyeAvg += ear #DO NO DELETE REEEEEEEEE
+			eyeAvg += ear 
 			leftEyeHull = cv2.convexHull(leftEye)
 			rightEyeHull = cv2.convexHull(rightEye)
 			cv2.drawContours(frame, [leftEyeHull], -1, (40, 49, 222), 1)
