@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+    <div id="mySidebar" class="sidebar">
+        <!-- here add a top image in the future -->
+        <!-- <div class = "brandName"><img src="{{url_for('static', filename='FILENAME.png')}}" align="middle"></div> -->
+        <div class = "sidebarMenu">
+            <div class = "sidebarPane"><a href="#">Home</a></div>
+            <div class = "sidebarPane"><a href="#">Launch</a></div>
+            <div class = "sidebarPane"><a href="#">Analytics</a></div>
+            <div class = "sidebarPane"><a href="#">Settings</a></div>
+            <div class = "sidebarPane"><a href="#">Help</a></div>
+        <div>
+    </div>
+    <div id = "main">
+        {% block content %}
+        {% endblock %}
+
+        <footer>Rohan Kalia | CRTC 2021</footer>
+    </div>
+    <!-- > Use the sidebar to navigate -->
+    <div class = "rightBar">
+        <!-- nothing here -->
+    </div>
+</body>
+</html>
