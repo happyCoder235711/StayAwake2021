@@ -18,4 +18,5 @@ HTML 5,
 CSS
 
 Note:
-All dependencies that are not hosted (downloaded) are stored in a single virutal environment folder.
+All dependencies that are not hosted (downloaded) are stored in a single virtual environment folder. 
+The exception is the facial landmarks dataset which I cannot figure out how to upload to github because of the file size. I'll upload that as soon as I figure it out.
