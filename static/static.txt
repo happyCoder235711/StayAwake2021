@@ -1,0 +1,1 @@
+This is where Flask finds static files such as the favicon, javascript, and css.
