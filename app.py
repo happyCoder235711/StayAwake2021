@@ -16,7 +16,7 @@ def home():
 
 @app.route("/launch/")
 def launch():
-    beep = "BEEP!"
+    beep = "nothing"
     return render_template("test2.html", data=beep)
 
 @app.route("/go/")
@@ -32,6 +32,5 @@ def analytics():
 @app.route("/graph/<graphdata>")
 def graph(graphdata):                                                                                        
     print(graphdata) 
-    print("WOWOOWOW")
     graphFile.splitString(graphdata)
     return render_template("test3.html")
